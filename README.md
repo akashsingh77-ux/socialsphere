@@ -62,15 +62,9 @@ Reusable React components improve maintainability and support future scalability
 
 Add screenshots below.
 
-```md id="v6mjlwm"
-![Feed Dashboard](PASTE_SCREENSHOT_LINK)
+<img width="1903" height="961" alt="Image" src="https://github.com/user-attachments/assets/b8d00766-1f53-4efe-8c1a-6563273d637b" />
 
-![Create Post](PASTE_SCREENSHOT_LINK)
-
-![Mobile View](PASTE_SCREENSHOT_LINK)
-```
-
----
+<img width="1895" height="969" alt="Image" src="https://github.com/user-attachments/assets/beeaf032-9bb3-46e4-9242-8a544b9151ba" />
 
 ## 📂 Project Structure
 
