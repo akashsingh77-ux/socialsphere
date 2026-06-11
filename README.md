@@ -8,6 +8,7 @@ SocialSphere is a dynamic, responsive social media feed dashboard that allows us
 (https://socialsphere-cyan.vercel.app/#)**
 
 ---
+<img width="1920" height="982" alt="Image" src="https://github.com/user-attachments/assets/7b26dff7-1f15-41ba-8de1-32fa4185da75" />
 
 ## 🛠️ Tech Stack & Technologies Used
 
