@@ -1,38 +1,159 @@
-# SocialSphere 🌐
+# 🌐 SocialSphere — Interactive Social Media Dashboard
 
-SocialSphere is a dynamic, responsive social media feed dashboard that allows users to create custom posts, manage tags, dynamically track engagement, and delete updates in real-time. This project highlights efficient client-side state management without relying on heavy external third-party libraries.
+SocialSphere is a modern and responsive **social media feed platform** built with **React + Vite**, designed to simulate real-world social interactions through dynamic post creation, engagement tracking, hashtag management, and responsive feed rendering.
+
+Built with a focus on **state management, reusable components, and scalable front-end architecture**, this project demonstrates practical React development patterns and interactive UI design.
+
+---
 
 ## 🚀 Live Demo
-🔗 **[Live Deployment Link]
 
-(https://socialsphere-cyan.vercel.app/#)**
-
----
-<img width="1920" height="982" alt="Image" src="https://github.com/user-attachments/assets/7b26dff7-1f15-41ba-8de1-32fa4185da75" />
-
-## 🛠️ Tech Stack & Technologies Used
-
-* **Frontend Framework:** React.js (Vite workflow)
-* **State Management:** React Context API (`useContext`) + Custom Reducers (`useReducer`)
-* **Styling & UI Components:** Bootstrap 5 (for responsive utilities and layouts)
-* **Icons:** React Icons (`md` material design pack)
-* **Build Tool & Dev Server:** Vite
+🔗 **https://socialsphere-cyan.vercel.app/**
 
 ---
 
-## ⚙️ Architecture & Logic Highlights
+## ✨ Features
 
-* **Global State Management:** Instead of prop-drilling, the application uses a unified `PostListProvider` utilizing the `useReducer` hook to handle actions like `ADD_POST`, `DELETE_POST`, and `ADD_REACTION` via single dispatch actions.
-* **Performance Optimization:** Component styling utilizes conditional tracking variables (`isMumbai`) to dynamically render accents, profile avatars, location badges, and custom themed hashtag layouts instantly on the client side.
-* **Uncontrolled Forms with Refs:** The `CreatePost` component reads values using React `useRef` directly on submission, preventing unnecessary component re-renders during active typing loops.
+📝 Create custom posts instantly
+❤️ React to posts dynamically
+🏷️ Add and manage hashtags
+🗑️ Delete posts in real time
+📊 Live engagement updates
+⚡ Smooth UI updates without page refresh
+📱 Fully responsive interface
+🎨 Modern social dashboard layout
 
 ---
 
-## 💻 Local Setup & Installation
+## 🛠️ Tech Stack
 
-Follow these steps to run the project locally on your machine:
+| Layer            | Technology               |
+| ---------------- | ------------------------ |
+| Frontend         | React.js                 |
+| Build Tool       | Vite                     |
+| State Management | Context API + useReducer |
+| Styling          | Bootstrap 5              |
+| Icons            | React Icons              |
+| Language         | JavaScript               |
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/akashsingh77-ux/socialsphere.git](https://github.com/akashsingh77-ux/socialsphere.git)
-   cd socialsphere
+---
+
+## 🧩 Architecture Highlights
+
+### 🌍 Centralized Global State
+
+Application state is managed using **Context API + useReducer**, reducing prop drilling and creating a scalable component structure.
+
+### ⚡ Optimized Rendering
+
+UI updates occur instantly through controlled dispatch actions and efficient component re-rendering.
+
+### 📝 Dynamic Post System
+
+Users can create, remove, and interact with posts while maintaining a responsive user experience.
+
+### 🎯 Component-Based Design
+
+Reusable React components improve maintainability and support future scalability.
+
+---
+
+## 📸 Screenshots
+
+Add screenshots below.
+
+```md id="v6mjlwm"
+![Feed Dashboard](PASTE_SCREENSHOT_LINK)
+
+![Create Post](PASTE_SCREENSHOT_LINK)
+
+![Mobile View](PASTE_SCREENSHOT_LINK)
+```
+
+---
+
+## 📂 Project Structure
+
+```bash id="r9tyzm"
+socialsphere/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── store/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone repository:
+
+```bash id="d1s6yq"
+git clone https://github.com/akashsingh77-ux/socialsphere.git
+```
+
+Move into project:
+
+```bash id="k0mg3e"
+cd socialsphere
+```
+
+Install dependencies:
+
+```bash id="hr9kiv"
+npm install
+```
+
+Start development server:
+
+```bash id="yxm2l8"
+npm run dev
+```
+
+Build production version:
+
+```bash id="u2g17k"
+npm run build
+```
+
+---
+
+## 🎯 Concepts Practiced
+
+* React Component Architecture
+* Context API
+* useReducer State Management
+* Responsive UI Design
+* Dynamic Rendering
+* Form Handling
+* Event Management
+
+---
+
+## 🚀 Future Improvements
+
+* Authentication System
+* Dark / Light Mode
+* Backend Integration
+* Comments & Notifications
+* Profile Pages
+* Persistent Database Storage
+
+---
+
+## 👨‍💻 Author
+
+**Akash Singh**
+
+GitHub:
+https://github.com/akashsingh77-ux
+
+---
+
+⭐ If you enjoyed this project, consider giving it a star!
